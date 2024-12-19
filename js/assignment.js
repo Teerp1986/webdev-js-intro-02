@@ -13,8 +13,13 @@ const resolution = "Learn coding and Javascript";
 let willMeetResolution = "Yes";
 
 function updateYear() {
+<<<<<<< HEAD
     // Update this function
     yearElement.innerHTML = currentYear;
+=======
+    // write the logic
+
+>>>>>>> b983b7900cec054de37108064ab7f87df72606d7
 }
 
 function updateResolution() {
@@ -22,6 +27,7 @@ function updateResolution() {
     resolutionElement.innerHTML = resolution;
 }
 
+<<<<<<< HEAD
 function updateWillMeetResolution() {
     // Update this function
     willMeetResolutionElement.innerHTML = willMeetResolution;
@@ -37,4 +43,14 @@ function render() {
 submissionBtn.addEventListener("click", function () {
     // Update this function
     render();
+=======
+function render() {
+    // Finish writing this function
+
+}
+
+submissionBtn.addEventListener("click", function () {
+    // Finish writing this function
+
+>>>>>>> b983b7900cec054de37108064ab7f87df72606d7
 })
